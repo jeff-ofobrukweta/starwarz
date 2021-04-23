@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component Unit Testing Check Card Props is Valid 1`] = `"<div class=\\"characters-section\\"><div class=\\"card-main-inner-container\\"><div class=\\"child-main-contain\\"></div></div></div>"`;
+
+exports[`Card Component Unit Testing Snapshot Card Component 1`] = `"<div class=\\"characters-section\\"><div class=\\"card-main-inner-container\\"><div class=\\"child-main-contain\\"></div></div></div>"`;

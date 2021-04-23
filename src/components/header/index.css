@@ -1,0 +1,264 @@
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbar .image-area {
+  padding: 1rem;
+}
+
+.notify-pops {
+  visibility: hidden;
+  position: fixed;
+  bottom: 10px;
+  left: 5px;
+  border: solid 1px #e6e6e6;
+  padding: 1rem 0.34rem;
+  display: flex;
+  justify-content: center;
+  background: #2e2e2e8f;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  opacity: 1;
+  z-index: 1000;
+}
+.notify-pops.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+.navigation-area {
+  color: white;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+}
+.navigation-area.open {
+  display: flex;
+}
+
+.navigation-area .nav-link {
+  list-style: none;
+  display: flex;
+  width: inherit;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.is-nav-active {
+  background: #89898961;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.link-list-item {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  margin: 0.3rem;
+  width: inherit;
+}
+
+.search-component {
+  width: 95%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+.header-section-wrapper-top-main-md {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.wrapper-dropdown-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.btn-link {
+  display: none;
+}
+
+.btn-custom-style {
+  width: initial;
+  height: inherit;
+  padding: 0.779rem;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.search-component-input {
+  padding: 0.874rem;
+  width: inherit;
+  border: none;
+}
+
+.search-label-wrapper-contain {
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  max-width: 900px;
+  padding: 3px;
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 99%;
+  height: 159px;
+  margin: auto;
+  top: 47px;
+  z-index: 99;
+  background: red;
+}
+
+.octicon-three-bars {
+  fill: #fff;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 10px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 10px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 10px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 10px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navigation-area {
+    color: white;
+    min-height: 40px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .navbar .image-area {
+    padding: 1rem;
+    width: 5rem;
+  }
+
+  .starwars-logo {
+    width: inherit;
+  }
+  .header-section-wrapper-top-main-md {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+
+  .btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: inherit;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 1rem;
+    background-color: initial;
+    border: 0;
+    appearance: none;
+    -moz-appearance: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navigation-area {
+    color: white;
+    min-height: 40px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header-section-wrapper-top-main-md {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+
+  .navbar .image-area {
+    padding: 1rem;
+    width: 5rem;
+  }
+
+  .starwars-logo {
+    width: inherit;
+  }
+  .btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: inherit;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 1rem;
+    background-color: initial;
+    border: 0;
+    appearance: none;
+    -moz-appearance: none;
+  }
+}

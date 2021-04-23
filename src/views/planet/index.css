@@ -1,0 +1,15 @@
+.fa-link {
+  width: inherit;
+  height: inherit;
+}
+
+.terrain {
+  display: flex;
+  align-items: center;
+}
+
+.terrain .svg-div {
+  width: 16px;
+  height: 16px;
+  color: purple;
+}

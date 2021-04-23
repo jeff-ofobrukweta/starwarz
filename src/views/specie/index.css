@@ -1,0 +1,67 @@
+.left-section{
+  margin-right: 1rem;
+}
+.right-section{
+  margin-right: 1rem;
+}
+.films-page {
+  max-width: 800px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.film-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0px;
+  width: 100%;
+}
+
+.film-details .left-section .header {
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.film-details .left-section .film-description {
+  max-width: 500px;
+}
+.fa-bookmark:before {
+  content: "\f02e";
+  padding: 1rem;
+}
+.details-wrapper{
+  width: inherit;
+}
+
+.checked {
+  color: red;
+}
+
+@media screen and (max-width: 1000px) {
+  .film-details .left-section {
+    width: 100%;
+    margin: 1rem 0px;
+  }
+  .film-details .right-section {
+    width: 40%;
+    margin: 1rem 0px;
+  }
+  .film-details {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .film-details .left-section {
+    width: 100%;
+    margin: 1rem 0px;
+  }
+  .film-details .right-section {
+    width: 40%;
+    margin: 1rem 0px;
+  }
+}

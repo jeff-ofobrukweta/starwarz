@@ -1,0 +1,2 @@
+export const SET_ACTIVE = "SET_ACTIVE";
+export const ADDED_TO_FAVOURITES = "ADDED TO FAVOURITES";

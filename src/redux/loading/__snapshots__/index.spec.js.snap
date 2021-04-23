@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`action creators creates CREATE_SUCCESS when creating a to-do was successful 1`] = `
+Array [
+  Object {
+    "payload": false,
+    "type": "LOADING",
+  },
+]
+`;
+
+exports[`action creators creates LOADING when loading was successful 1`] = `
+Array [
+  Object {
+    "payload": false,
+    "type": "LOADING",
+  },
+]
+`;

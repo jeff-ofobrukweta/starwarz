@@ -1,0 +1,1 @@
+export const SET_SPACESHIPS = "SET_SPACESHIPS";
