@@ -183,5 +183,5 @@ Project Link: [https://github.com/jeff-ofobrukweta/starwarz](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-url]: https://www.linkedin.com/in/ofobrukweta-jeff-207506136/
-[product-screenshot]: public/logo.png
+[product-screenshot]: public/ella.png
 [product-precaching-config]: images/workbox_precaching.png
