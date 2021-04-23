@@ -29,7 +29,7 @@ const SpaceShip = (props) => {
     );
   };
   useEffect(() => {
-    handleAPICallToServer(`${starship}/${props.match.params.id}`);
+    handleAPICallToServer(`${starship}/${props.match?.params?.id}`);
   }, []);
 
   return (
