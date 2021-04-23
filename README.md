@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Landing Page][product-screenshot]](https://store.luminskin.com/products?language=en)
+[![Landing Page][product-screenshot]](https://swapi.dev/)
 
 ### Instructions
 
@@ -99,10 +99,10 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation using NPM
 
-1. Get to  [https://github.com/jeff-ofobrukweta/Take_Home_Test-from_Pangaea](https://github.com/jeff-ofobrukweta/Take_Home_Test-from_Pangaea)
+1. Get to  [https://github.com/jeff-ofobrukweta/starwarz](https://github.com/jeff-ofobrukweta/starwarz)
 2. Clone the repo
    ```sh
-   git clone https://github.com/jeff-ofobrukweta/Take_Home_Test-from_Pangaea.git
+   git clone https://github.com/jeff-ofobrukweta/starwarz.git
    ```
 3. Install NPM packages
    ```sh
@@ -123,10 +123,10 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation using Yarn
 
-1. Get to  [https://github.com/jeff-ofobrukweta/Take_Home_Test-from_Pangaea](https://github.com/jeff-ofobrukweta/Take_Home_Test-from_Pangaea)
+1. Get to  [https://github.com/jeff-ofobrukweta/starwarz](https://github.com/jeff-ofobrukweta/starwarz)
 2. Clone the repo
    ```sh
-   git clone https://github.com/jeff-ofobrukweta/Take_Home_Test-from_Pangaea.git
+   git clone https://github.com/jeff-ofobrukweta/starwarz.git
    ```
 3. Install NPM packages
    ```sh
@@ -174,7 +174,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Jefferson . Ofobrukweta . O - [@https://www.linkedin.com/in/ofobrukweta-jeff-207506136/](https://www.linkedin.com/in/ofobrukweta-jeff-207506136/) - oghenerukevwejeff@gmail.com
 
-Project Link: [https://github.com/jeff-ofobrukweta/Take_Home_Test-from_Pangaea](https://github.com/jeff-ofobrukweta/Take_Home_Test-from_Pangaea)
+Project Link: [https://github.com/jeff-ofobrukweta/starwarz](https://github.com/jeff-ofobrukweta/starwarz)
 
 
 
@@ -183,5 +183,5 @@ Project Link: [https://github.com/jeff-ofobrukweta/Take_Home_Test-from_Pangaea](
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-url]: https://www.linkedin.com/in/ofobrukweta-jeff-207506136/
-[product-screenshot]: images.readme/Lumin.png
+[product-screenshot]: public/logo.png
 [product-precaching-config]: images/workbox_precaching.png
