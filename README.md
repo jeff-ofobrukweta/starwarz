@@ -72,7 +72,7 @@ This is Star Wars isn't it? Have some fun!
 
 #### Submission
 
-Push your code to a version control service such as github or gitlab and send a link to the shared repository to jordan@menskin.co
+Push your code to a version control service such as github or gitlab and send a link to the shared repository to 	careers@aellacredit.com
 
 
 ### Built With
